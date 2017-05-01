@@ -1,0 +1,18 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "trying out docker",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node_modules/tape/bin/tape -- 'test/*spec.js'"
+  },
+  "author": "Jonathan Lake",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^16.1.1"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
