@@ -1,6 +1,6 @@
 'use strict';
 
-const Hapi = require('Hapi');
+const Hapi = require('hapi');
 
 // create server
 const server = new Hapi.Server();
